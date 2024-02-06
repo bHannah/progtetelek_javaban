@@ -80,6 +80,32 @@ public class ElemiProgTetelek {
         darab++;
     }
     System.out.printf("%d db számból a legkisebb szám: %d\n" ,darab ,min);
+    
+    /*Eldöntés Python kód*/
+    
+    /*def elso_otjegyu_prim():
+    prim = False
+    n = 9999
+    while prim == False:
+        n += 1
+        i = 2
+        while i <= n ** 0.5 and n % i != 0:
+            i += 1
+        prim = i > n**0.5
+    return n*/
+    
+    /*Eldöntés Java kód*/
+    boolean prim = False;
+    n = 9999;
+    while (prim == False){
+        n += 1;
+        i = 2;
+        while (i <= n ** 0.5 and n % i != 0) {
+            i += 1
+        prim = i > n**0.5
+        }
+    }
+    return n
     }
     
 }
